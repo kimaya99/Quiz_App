@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "656821519982",
+    "firebase_url": "https://vocabopedia.firebaseio.com",
+    "project_id": "vocabopedia",
+    "storage_bucket": "vocabopedia.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:656821519982:android:fdd47b52752b0147",
+        "android_client_info": {
+          "package_name": "com.example.kimayadesai.quizkv2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "656821519982-d83cmbkmn5iim5ae41rcrf0kl1e1u6a2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.kimayadesai.quizkv2",
+            "certificate_hash": "4d61fbb5f3c13e1e225481c96ce2ac17a9c93433"
+          }
+        },
+        {
+          "client_id": "656821519982-bjqkl5c8f5nae8977n7la05kda558lf9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDD_PCEec3J7IP480MDS2X0boEVPyZmBpk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "656821519982-u9v02olpa9p69k1qt340hp34k17ntslv.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.nraghav.vocabopedia"
+              }
+            },
+            {
+              "client_id": "656821519982-bjqkl5c8f5nae8977n7la05kda558lf9.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

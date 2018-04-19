@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <android.support.v7.widget.CardView
+
+        android:id="@+id/question_box"
+        android:layout_width="300dp"
+        android:layout_height="70dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp">
+
+        <TextView
+            android:id="@+id/q_text"
+            android:paddingTop="20dp"
+            android:textSize="25dp"
+            android:textAlignment="center"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Question" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/option1"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/question_box"
+        android:layout_below="@+id/question_box"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/o1"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingTop="10dp"
+            android:text="Option1"
+            android:textAlignment="center" />
+
+
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/option2"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/question_box"
+        android:layout_below="@+id/option1"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp" >
+
+
+        <TextView
+            android:id="@+id/o2"
+            android:textSize="15dp"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Option2"
+            android:textAlignment="center" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/option3"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+
+        android:layout_alignStart="@+id/question_box"
+        android:layout_below="@+id/option2"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/o3"
+            android:textSize="15dp"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Option3"
+            android:textAlignment="center" />
+    </android.support.v7.widget.CardView>
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/option4"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignStart="@+id/question_box"
+        android:layout_below="@+id/option3"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="20dp" >
+
+        <TextView
+            android:id="@+id/o4"
+            android:textSize="15dp"
+            android:paddingTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Option4"
+            android:textAlignment="center" />
+    </android.support.v7.widget.CardView>
+
+
+</RelativeLayout>
